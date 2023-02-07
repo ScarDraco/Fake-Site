@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: #180F4A;
+    font-size: 32px;
+}
+
+.logo{
+    text-align: center;
+    flex: 20%;
+}
+
+.navbar{
+    background-color:white;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #180F4A;
+    padding: 5px 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 20px 16px;
+    font-size:20px;
+}
+
+.menu a:hover{
+    color:#FF2978;
+    border-top: 4px solid #180F4A
+}
+
+#botao{
+    background-color:#180F4A;
+    color: white;
+    border: 1px solid #180F4A;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding: 10px 25px;  
+}
+
+#botao:hover{
+    background-color: #FF2978;
+    border: none;
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    
+}
+
+.headline-image.img{
+    margin-right: 10%;
+    flex:40%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.headline h2{
+    font-weight: 900;
+    color: #180F4A;
+}
+
+.headline p{
+    text-align: left;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.botao2{
+    background-color:#FF2978;
+    color: white;
+    border: 1px solid #180F4A;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.botao2:hover{
+    background-color: #180F4A;
+    border: none;
+}
+
+.tamanho{
+    font-size: 80px;
+}
+
+.texto2{
+    letter-spacing: 15px;
+    word-spacing: 10px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;   
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    font-family: 'Dancing Script', cursive;
+    color: #180F4A;
+    font-size: 50px;
+    width: 100%;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display:inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background-color: #FF2978;
+    color: white;
+
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    border: 5px solid #FF2978;
+    padding: 70px;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(#180F4A,#090422, rgb(0, 0, 2));
+}
+
+footer h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.logo-rodape{
+    padding: 100px;
+    
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  
+}
